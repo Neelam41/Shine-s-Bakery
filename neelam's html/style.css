@@ -1,0 +1,97 @@
+body{ 
+       color:white;
+            font-family:fantasy;
+            margin:0;
+            padding:10px;
+        }
+
+        header{background-color: black;
+            background-image: url("photos/download-1.jpg");
+            background-size:100%; 
+              
+                   height:400px;
+            padding:0px;
+     background-position: center;
+            
+          
+            text-align:center;
+            
+            
+            }
+form{
+    margin:100px;
+    
+    
+}
+.in{ width:150px;
+    background-image: url("photos/unnamed.jpg");
+    background-size:20px;
+    position: relative;
+    background-repeat: no-repeat}
+ 
+        
+header a {
+    color:aliceblue;
+    
+    text-decoration:none;
+    text-transform: uppercase;
+   
+}
+.logo a{ 
+     background-image:url("photos/download.png");
+    baground-size:100%;
+    background-size:100px;
+    background-repeat: no-repeat;
+    display:inline-block;
+     height:80px;
+    position:relative;
+  text-indent: -99999999999px;
+  width:100px;
+    border-radius: 30px;
+    position: relative;
+   
+  
+ 
+}
+
+        .features{ 
+        position: relative;
+    background-color:white; 
+        color:grey;
+             display:flex;
+              flex-direction: row;  
+        padding-right: 15px;
+       
+         
+        }
+      .features figure{position: relative;
+            background-color:antiquewhite;
+           margin: auto;
+            width:100px;
+          text-align:center;
+          margin-top: 20px;
+        }
+.features figure img{
+    border-radius: 50%;
+    width: 200px;
+    padding-right: 10px;
+    padding-left: 0px;
+    box-shadow:10px;
+    color: black;
+    }
+        ul{ 
+            margin:0;
+            padding:0;
+            list-style-type:none;}
+        li{display:inline-block;
+         margin-top: 10px ;
+        margin-right: 20px;
+}
+
+        footer{
+            font-size:20px;
+            background:black;
+            padding: 10px 20px;
+            text-align: center;
+            position: relative;
+        }
