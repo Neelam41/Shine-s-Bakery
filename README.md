@@ -1,5 +1,5 @@
 # Websites-Project
-Shine's Bakery Website
+Shine's Bakery Website and 
 BeeFit Gym Website with amazing design and interfaces using HTML, CSS ans JavaScript.
 ![Screenshot 2022-01-19 at 14 23 37](https://user-images.githubusercontent.com/68947690/150101896-8f52654a-9917-4fbe-8794-40d7d03763fc.png)
 ![Screenshot 2022-01-19 at 14 24 09](https://user-images.githubusercontent.com/68947690/150101914-2e03c238-19d8-4942-a543-f0ba8246bae0.png)
