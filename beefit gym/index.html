@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LAYOUT!!!  </title>
+    
+   <link rel="stylesheet" href="style.css">
+    
+    </head>
+<body>
+
+<section class="showcase">
+    <header>
+      <h2 class="logo">BeeFIT Gym</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="My Movie 3.mp4" type="video/mp4" muted autoplay looptype = "mp4" poster="gym1.jpg"></video> 
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>BEEFIT-GYM </h2> 
+      <h3>No Strength Without Struggle</h3>
+      <p>The COVID-19 pandemic has forced many people to live 
+          a more digital way of working and living. From 
+          homeworking to digital fitness, the online world 
+          is key to moving forward. 
+          So our BeeFit Team is ready to train you wherever you go.Be ready to get Trained under our best trainers guidance.
+
+    </p>
+      <a href="beefit.html">Explore</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://twitter.com/Bora12Neelam"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/neelambora3/?hl=en"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+     
+      <li><a href="index.html">HOME</a></li>
+                <li><a href ="about.html">ABOUT</a></li>
+                <li><a href ="contact.html">CONTACT</a></li>
+               <li><a href ="beefit.html">SERVICES</a></li>
+    </ul>
+  </div>
+  <script type="text/Javascript">
+       const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      });
+  </script>
+</body>
+</html>
+

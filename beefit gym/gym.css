@@ -1,0 +1,226 @@
+
+body{
+    margin: 0;
+    padding:0;
+     background:#FFFFE0;
+     color:white;
+     font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    min-height:100vh;
+    box-sizing: border-box;
+    
+}
+header{
+    position: relative;
+    background-image: url("back2.jpg");
+    background-size: cover;
+    height:600px;
+    width:100%;
+    text-align: center;
+    background-position: center;
+}
+
+
+ header p{
+    color: rgb(247, 231, 93);
+font-size: 20px;
+padding: 50px ;
+
+} 
+h2,h3
+{
+    margin: -20px;
+    position: relative;
+  font-size:2em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+h4{
+    margin: 30px;
+    padding: 20px;
+    position:absolute;
+  font-weight: 700;
+  color: #fff;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header a{
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-top:10px;
+}
+header .logo a{
+    position: relative;
+    background-image: url("beefit.png");
+    background-size:200px;
+    display:inline-block;
+   height:100px;
+   width:200px;
+   top:-40px;
+    text-indent: -99999999px;
+    background-repeat: no-repeat;  
+    padding-right: 200px;
+    margin-right: 200px;
+    cursor: initial;
+}
+a:hover{
+  
+    text-decoration:underline;
+    text-decoration-color: yellow;
+    
+}
+header ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+   align-items: center;
+   justify-content: center;
+
+}
+
+header li{
+    display:inline-block;
+    margin: 20px;
+
+}
+
+header form{
+    margin-top:200px;
+    margin-left:-200px;
+    position: absolute;
+  display:inline-block;
+  align-items:center;
+    justify-content:cente;
+ 
+}
+section {
+    width: 100%;
+    height: auto;
+    position:relative ;
+    background-color: black;
+text-align: center;
+padding-top: 100px;
+
+}
+.block-out{
+    margin:0;
+    position:relative;
+    align-items: center;
+text-align: center;
+padding-top: 40px;
+}
+.block{
+    width:170px;
+    height: 350px;
+    display: inline-block;
+    background-color: black;
+ margin-inline: 50px;
+ text-align: center;
+ 
+}
+
+
+ h2,h4{
+    position: relative;;
+    margin:-10px auto;
+    margin-right:auto;
+    align-self:center ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.block:nth-child(1){
+    background-image: url(gym13.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.block:nth-child(2){
+    background-image: url(gym7.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.block:nth-child(3){
+    background-image: url(gym8.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.block:nth-child(4){
+    background-image: url(gym10.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+
+}
+.block:nth-child(5){
+    background-image: url(cardio2.jpeg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+
+     .down{
+        width: 100%;
+        height: auto;
+        position:absolute ;
+        background-color: black;
+    text-align: center;
+    padding-top: 100px;
+    
+    }
+    .users{
+        padding: 20px;
+
+    }
+
+.down a{
+    font-size: 20px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(230, 245, 17);
+
+}
+.end{
+
+    background-color: #FFFFE0;
+    text-align: center;
+}
+.end h4{
+    color: black;
+}
+section #middle{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background-color: rgb(255, 249, 249);
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+#middle .block-out
+{
+    background-color: #fff;
+
+}
+.first{
+    width:360px;
+    height: auto;
+    display: inline-block;
+    background-color:transparent;
+ margin-inline: 50px;
+ text-align: center;
+ margin-top: 20px;
+
+}
+.first h3{
+    color: black;
+    padding: 20px;
+
+}
+.first p{
+    color:black;
+    word-spacing: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

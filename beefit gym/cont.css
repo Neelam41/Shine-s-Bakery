@@ -1,0 +1,129 @@
+
+body{
+    margin: 0;
+    padding:0;
+     background:FFFFE0;
+     color:white;
+     font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    min-height:100vh;
+    box-sizing: border-box;
+    
+}
+header{
+    position: relative;
+    background-image: url("cardio.jpeg");
+    background-size: cover;
+    height:740px;
+    width:100%;
+    opacity: 0.80;
+    text-align: center;
+    background-position: center;
+}
+
+
+header h1{  
+
+   text-align: center;
+    color: white;
+}
+header a{
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-top:10px;
+}
+header .logo a{
+    position: relative;
+    background-image: url("beefit.png");
+    background-size:200px;
+    display:inline-block;
+   height:100px;
+   width:200px;
+   top:-40px;
+    text-indent: -99999999px;
+    background-repeat: no-repeat;  
+    padding-right: 200px;
+    margin-right: 200px;
+    cursor: initial;
+}
+a:hover{
+  
+    text-decoration:underline;
+    text-decoration-color: yellow;
+    
+}
+header ul{
+    margin-top:-20px;
+    padding:0;
+    list-style-type: none;
+   align-items: center;
+   justify-content: center;
+    display:inline-block;
+}
+
+header li{
+    display:inline-block;
+    margin: 20px;
+
+}
+
+
+header form{
+    margin-top:relative;
+    
+    position: absolute;
+  display:inline-block;
+  align-items:center;
+    justify-content:cente;
+ 
+}
+header button{
+  
+    height:50px;
+    color:#111;
+    width:200px;
+    background-image:linear-gradient(to right, #36383a, #383836, #656868, #e2e065, #ddeb12);
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+header h2{
+    position: relative;
+    color:yellow;
+    margin: 70px auto;
+    margin-top:0px;
+    font-size: 50px;
+    margin-right:auto;
+    align-self:center ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{
+    align-self:"center" ;
+    margin-top: -50px ;
+    margin-left: -30%;
+}
+form{
+    position:relative;
+    width:500px;
+    height:300px;
+    border: #111;
+    border-radius: 10px;
+    background-color: black;
+
+}
+.in{
+    width:400px;
+    height:40px;
+    margin: 20px;
+    background-color: white;
+    
+}
+
+h4{
+   text-align: center;
+    position: relative;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #383836;
+}

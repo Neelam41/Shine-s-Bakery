@@ -1,0 +1,155 @@
+
+body{
+    margin: 0;
+    padding:0;
+     background:FFFFE0;
+     color:white;
+     font-family: Arial, Helvetica, sans-serif;
+    width:100%;
+    min-height:70vh;
+    box-sizing: border-box;
+    
+}
+header{
+    position: relative;
+      background-size: cover;
+    background-color: black;
+    height:500px;
+    width:100%;
+   
+    text-align: center;
+    background-position: center;
+}
+
+
+header h1{  
+   margin-top: auto; 
+   margin-left: 200px;
+    color: yellow;
+}
+header a{
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-top:10px;
+}
+header .logo a{
+    position: relative;
+    background-image: url("beefit.png");
+    background-size:200px;
+    display:inline-block;
+   height:100px;
+   width:200px;
+   top:-40px;
+    text-indent: -99999999px;
+    background-repeat: no-repeat;  
+    padding-right: 200px;
+    margin-right: 200px;
+    cursor: initial;
+}
+a:hover{
+  
+    text-decoration:underline;
+    text-decoration-color: yellow;
+    
+}
+header ul{
+    margin-top:-20px;
+    padding:0;
+    list-style-type: none;
+   align-items: center;
+   justify-content: center;
+    display:inline-block;
+}
+
+header li{
+    display:inline-block;
+    margin: 20px;
+
+}
+
+
+header form{
+    margin-top:relative;
+    
+    position: absolute;
+  display:inline-block;
+  align-items:center;
+    justify-content:cente;
+ 
+}
+
+
+header h1{
+    position: relative;;
+    margin:-30px auto;
+    font-size:40px;
+    margin-right:auto;
+    align-self:center ;
+    color: yellow;
+}
+header h4{
+    position: relative;;
+    margin: 50px auto;
+    font-size: 20px;
+    margin-right:auto;
+    align-self:center ;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h4{
+   text-align: center;
+    position: relative;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #383836;
+}
+section{
+    position: relative;
+     background-image: url("gym1.jpg"); 
+   
+    background-size: cover;
+    height:500px;
+    width:100%;
+    text-align: center;
+    background-position: center;
+    display: inline-block;
+}
+section h1{
+    position: relative;
+    text-align: center;
+    font-size:40px;
+    margin-right:auto;
+    align-self:center ;
+    color: yellow;
+}
+section h2{
+   
+    font-size:20px;
+    align-self:center ;
+    color: yellow;
+}
+  .boxcover{
+display: flex;
+margin: auto;
+
+}
+ .box{
+    width: 300px;
+    height:200px;
+flex:1;
+margin:20px;
+background-color: darkslategray;
+}
+section ul{
+    text-align: left;
+}
+
+ p{
+     font-size: 18px;
+     font-weight: 100;
+     font-style: oblique;
+   
+}
